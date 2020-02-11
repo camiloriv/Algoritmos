@@ -8,8 +8,8 @@ function resetnegativo(x){
         if(x[i] < 0){
             x[i] = 0
         }
-    return x
     }
+    return x
 }
 z = resetnegativo([1,2,-1,-3])
 console.log (z)
